@@ -15,7 +15,7 @@ public class TestBaseExtended {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.holdBrowserOpen = true;
+        //Configuration.holdBrowserOpen = true;
         Configuration.browserSize = "1600x1600";
         Configuration.browser = "chrome";
         Configuration.browserVersion = "100.0";
