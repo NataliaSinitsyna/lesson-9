@@ -8,17 +8,16 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import pages.RegistrationPage;
 
 import java.util.Map;
 
 public class TestBaseExtended {
-    RegistrationPage registrationPage = new RegistrationPage();
 
     @BeforeAll
     static void beforeAll() {
         Configuration.holdBrowserOpen = true;
         Configuration.browserSize = "1600x1600";
+        Configuration.browser = "chrome";
         Configuration.browserVersion = "100.0";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";

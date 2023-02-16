@@ -2,6 +2,7 @@ package tests;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import pages.RegistrationPage;
 
 import static io.qameta.allure.Allure.step;
 
@@ -14,6 +15,7 @@ public class RegistrationFormTests extends TestBaseExtended {
     @Test
     void successRegistrationTest() {
 
+        RegistrationPage registrationPage = new RegistrationPage();
         step("Открыть и заполнить форму", () -> {
             registrationPage.openPage()
                     .setFirstName(data.firstName)
