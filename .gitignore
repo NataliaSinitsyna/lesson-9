@@ -6,7 +6,6 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 .idea
-build
 gradle
 .gradle
 
@@ -147,7 +146,7 @@ replay_pid*
 
 ### Gradle ###
 .gradle
-**/build/
+#**/build/
 !src/**/build/
 
 # Ignore Gradle GUI config

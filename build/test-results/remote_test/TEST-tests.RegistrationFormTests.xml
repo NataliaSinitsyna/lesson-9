@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationFormTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-16T19:18:53" hostname="SINITSYN-AG" time="34.386">
+  <properties/>
+  <testcase name="successRegistrationTest()" classname="tests.RegistrationFormTests" time="34.386"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
