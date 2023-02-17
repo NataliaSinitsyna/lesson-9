@@ -10,12 +10,11 @@ import static io.qameta.allure.Allure.step;
 public class RegistrationFormTests extends TestBaseExtended {
 
     TestData data = new TestData();
+    RegistrationPage registrationPage = new RegistrationPage();
 
     @Tag("remote")
     @Test
     void successRegistrationTest() {
-
-        RegistrationPage registrationPage = new RegistrationPage();
         step("Открыть и заполнить форму", () -> {
             registrationPage.openPage()
                     .setFirstName(data.firstName)
